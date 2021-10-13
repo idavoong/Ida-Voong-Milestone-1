@@ -42,46 +42,60 @@
 
   <div>
     <div class="row border m-5">
-      <div class="col-12 border">
+      
           <center><h1>Fun Quiz</h1></center>
+            <div class="col-6 border">
+              <center>How much food do you waste?</center>
+              <p>Amount of food you throw away?</p>
+              <select name="foodWasteAmount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <br>
+              <br>
+    
+              <p>Why do you throw away food?</p>
+              <p>
+                <label for="groceries">Buying too many groceries</label>
+                <input type="radio" id="groceries" value="groceries">
+              </p>
+              <p>
+                <label for="finish">Don't finish food</label>
+                <input type="radio" id="finish" value="finish">
+              </p>
+              <p>
+                <label for="forgot">Forgot you bought something</label>
+                <input type="radio" id="forgot" value="forgot">
+              </p>
+              <br>
+    
+              <p>Food waste type?</p>
+              <select name="foodWasteType">
+                <option value="meat">meat</option>
+                <option value="vegetables">vegetables</option>
+                <option value="canned">canned food</option>
+                <option value="poultry">poultry</option>
+                <option value="frozen">frozen food</option>
+              </select>
+            </div>
 
-          <p>Amount of food you throw away?</p>
-          <select name="foodWasteAmount">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <br>
-          <br>
-
-          <p>Why do you throw away food?</p>
-          <p>
-            <label for="groceries">Buying too many groceries</label>
-            <input type="radio" id="groceries" value="groceries">
-          </p>
-          <p>
-            <label for="finish">Don't finish food</label>
-            <input type="radio" id="finish" value="finish">
-          </p>
-          <p>
-            <label for="forgot">Forgot you bought something</label>
-            <input type="radio" id="forgot" value="forgot">
-          </p>
-          <br>
-
-          <p>Food waste type?</p>
-          <select name="foodWasteType">
-            <option value="meat">meat</option>
-            <option value="vegetables">vegetables</option>
-            <option value="canned">canned food</option>
-            <option value="poultry">poultry</option>
-            <option value="frozen">frozen food</option>
-          </select>
+            <div class="col-6 border">
+              <center>Are you struggling with food insecurity?</center>
+              <p>How often do you go hungry?</p>
+              <select name="hungry">
+                <option value="everyday">everyday</option>
+                <option value="everyotherday">every other day</option>
+                <option value="twiceaweek">twice a week</option>
+                <option value="onceaweek">once a week</option>
+                <option value="rarely">rarely</option>
+              </select>
+            </div>
         
       </div>
-    </div>
+    
   </div>
 
   <div>
